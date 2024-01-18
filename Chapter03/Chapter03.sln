@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{00C3C08B-45B9-425F-BB0E-B41EA852540C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Operators.csproj", "{00C3C08B-45B9-425F-BB0E-B41EA852540C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionStatements", "SelectionStatements\SelectionStatements.csproj", "{FD3E2AFC-CD5C-4D01-B45B-DB96987AB2BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationStatements", "IterationStatements\IterationStatements.csproj", "{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{00C3C08B-45B9-425F-BB0E-B41EA852540C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C3C08B-45B9-425F-BB0E-B41EA852540C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C3C08B-45B9-425F-BB0E-B41EA852540C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3E2AFC-CD5C-4D01-B45B-DB96987AB2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3E2AFC-CD5C-4D01-B45B-DB96987AB2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3E2AFC-CD5C-4D01-B45B-DB96987AB2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3E2AFC-CD5C-4D01-B45B-DB96987AB2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
