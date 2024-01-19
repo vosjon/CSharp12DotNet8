@@ -5,9 +5,15 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Operators.csproj", "{00C3C08B-45B9-425F-BB0E-B41EA852540C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionStatements", "SelectionStatements\SelectionStatements.csproj", "{FD3E2AFC-CD5C-4D01-B45B-DB96987AB2BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionStatements", "SelectionStatements\SelectionStatements.csproj", "{FD3E2AFC-CD5C-4D01-B45B-DB96987AB2BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationStatements", "IterationStatements\IterationStatements.csproj", "{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IterationStatements", "IterationStatements\IterationStatements.csproj", "{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{28C87C90-9286-4AA2-8F1E-DB41662A8918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingConverting", "CastingConverting\CastingConverting.csproj", "{8A07D4B2-D62E-4CA6-8001-09E4C6BE1753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "HandlingExceptions\HandlingExceptions.csproj", "{4C00331F-5C16-4C09-A34C-3024671391BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22A8884F-C2E4-4700-BC4E-C6A9CDD070E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C87C90-9286-4AA2-8F1E-DB41662A8918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C87C90-9286-4AA2-8F1E-DB41662A8918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C87C90-9286-4AA2-8F1E-DB41662A8918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C87C90-9286-4AA2-8F1E-DB41662A8918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A07D4B2-D62E-4CA6-8001-09E4C6BE1753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A07D4B2-D62E-4CA6-8001-09E4C6BE1753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A07D4B2-D62E-4CA6-8001-09E4C6BE1753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A07D4B2-D62E-4CA6-8001-09E4C6BE1753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C00331F-5C16-4C09-A34C-3024671391BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C00331F-5C16-4C09-A34C-3024671391BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C00331F-5C16-4C09-A34C-3024671391BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C00331F-5C16-4C09-A34C-3024671391BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
