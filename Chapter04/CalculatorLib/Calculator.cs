@@ -2,8 +2,8 @@
 
 public class Calculator
 {
-    public double add(double a, double b)
+    public double Add(double a, double b)
     {
-        return a * b;
+        return a + b;
     }
 }

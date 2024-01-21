@@ -13,9 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotReloading", "HotReloadin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instrumenting", "Instrumenting\Instrumenting.csproj", "{E2236F89-DDAE-4CD8-9786-F2662ABE2D30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{382634E8-522E-4F69-B870-C94E332F8A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{382634E8-522E-4F69-B870-C94E332F8A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibUnitTests", "CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{E3EA85AF-3AA6-4B4E-89B6-269CA39570C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibUnitTests", "CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{E3EA85AF-3AA6-4B4E-89B6-269CA39570C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStackExceptionHandlingLib", "CallStackExceptionHandlingLib\CallStackExceptionHandlingLib.csproj", "{1375EDC8-A03D-40CA-B0D8-BFD809A5A79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStackExceptionHandling", "CallStackExceptionHandling\CallStackExceptionHandling.csproj", "{0B20273A-831B-4C1E-A3B1-F078B9F2AD96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch04Ex02PrimeFactorsLib", "Ch04Ex02PrimeFactorsLib\Ch04Ex02PrimeFactorsLib.csproj", "{0CB911D3-4BE8-4266-9A33-70FE89663C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch04Ex02PrimeFactorsTests", "Ch04Ex02PrimeFactorsTests\Ch04Ex02PrimeFactorsTests.csproj", "{9C1576FE-8102-4C5D-8409-3F243A545D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch04Ex02PrimeFactorsApp", "Ch04Ex02PrimeFactorsApp\Ch04Ex02PrimeFactorsApp.csproj", "{4EB056C8-535E-41C4-B06F-00FA15C67876}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +61,26 @@ Global
 		{E3EA85AF-3AA6-4B4E-89B6-269CA39570C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3EA85AF-3AA6-4B4E-89B6-269CA39570C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3EA85AF-3AA6-4B4E-89B6-269CA39570C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1375EDC8-A03D-40CA-B0D8-BFD809A5A79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1375EDC8-A03D-40CA-B0D8-BFD809A5A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1375EDC8-A03D-40CA-B0D8-BFD809A5A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1375EDC8-A03D-40CA-B0D8-BFD809A5A79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B20273A-831B-4C1E-A3B1-F078B9F2AD96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B20273A-831B-4C1E-A3B1-F078B9F2AD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B20273A-831B-4C1E-A3B1-F078B9F2AD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B20273A-831B-4C1E-A3B1-F078B9F2AD96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB911D3-4BE8-4266-9A33-70FE89663C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB911D3-4BE8-4266-9A33-70FE89663C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB911D3-4BE8-4266-9A33-70FE89663C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB911D3-4BE8-4266-9A33-70FE89663C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1576FE-8102-4C5D-8409-3F243A545D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1576FE-8102-4C5D-8409-3F243A545D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1576FE-8102-4C5D-8409-3F243A545D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1576FE-8102-4C5D-8409-3F243A545D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB056C8-535E-41C4-B06F-00FA15C67876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB056C8-535E-41C4-B06F-00FA15C67876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB056C8-535E-41C4-B06F-00FA15C67876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB056C8-535E-41C4-B06F-00FA15C67876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
